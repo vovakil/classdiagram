@@ -1,3 +1,5 @@
+//202310283 
+//yazan barjous
 using System;
 
 class Customer {
@@ -119,12 +121,12 @@ class OrderDetail {
 public class Main {
     public static void Main(string[] args) {
         
-        Customer customer = new Customer("John Doe", "123 Main St");
+        Customer customer = new Customer("ahmad mohammmad", "123 Main St");
         Order order = new Order(DateTime.Now, "Processing");
         Item item = new Item(2.5, "Widget");
         OrderDetail orderDetail = new OrderDetail(3, "Taxable", item);
-        Check checkPayment = new Check(100.0f, "John Doe", "123456");
-        Credit creditPayment = new Credit(150.0f, "John Doe", "Visa", DateTime.Now);
+        Check checkPayment = new Check(100.0f, "ahmad mohammad", "123456");
+        Credit creditPayment = new Credit(150.0f, "ahmad mohammad", "Visa", DateTime.Now);
         
     }
 }
